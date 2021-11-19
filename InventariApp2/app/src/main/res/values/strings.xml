@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">InventariApp</string>
+    <string name="landing_start_button">Iniciar</string>
+    <string name="landing_welcome_message">Bienvenid@ a InventariApp</string>
+    <string name="account_settings_title">Configuración de Usuario</string>
+    <string name="account_settings_username_label">Nombre de usuario</string>
+    <string name="account_settings_change_password">Cambiar contraseña</string>
+    <string name="account_settings_save_changes">Guardar cambios</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo_settings_title">Editar foto de perfil</string>
+    <string name="photo_settings_new">Nueva foto</string>
+    <string name="photo_settings_delete">Eliminar foto</string>
+    <string name="password_settings_title">Cambio de contraseña</string>
+    <string name="password_settings_save">Guardar</string>
+    <string name="password_settings_cancel">Cancelar</string>
+    <string name="password_settings_old_password">Contraseña anterior</string>
+    <string name="password_settings_new_password">Contraseña nueva</string>
+    <string name="password_settings_confirm_new_password">Confirmar contraseña</string>
 </resources>
