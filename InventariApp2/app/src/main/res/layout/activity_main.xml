@@ -61,14 +61,14 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
-        android:id="@+id/buttonregistro"
+        android:id="@+id/login_to_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/button_rounded"
-        android:text="Registrarse"
+        android:text="¿No tienes cuenta?"
         android:textColor="#EBFFC4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

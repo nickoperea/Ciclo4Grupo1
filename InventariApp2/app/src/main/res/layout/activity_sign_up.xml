@@ -99,28 +99,40 @@
         android:id="@+id/imageView"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher"
-        />
+        app:srcCompat="@mipmap/ic_launcher" />
+
     <Button
-        android:id="@+id/Registrar"
-        android:layout_width="wrap_content"
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
-        android:layout_weight="1"
         android:background="@drawable/button_rounded"
         android:text="REGISTRARSE"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/passwordagainlayout"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/passwordagainlayout"
+        android:textColor="#EBFFC4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordagainlayout" />
 
-    // emre-kocaman
+    <Button
+        android:id="@+id/login_from_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_rounded"
+        android:text="¿Ya tienes cuenta?"
+        android:textColor="#EBFFC4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
